@@ -1,5 +1,5 @@
 import os
-import google.generativeai as genai
+from google.ai.generativelanguage import GenerativeServiceClient
 from dotenv import load_dotenv
 import PyPDF2
 import requests
